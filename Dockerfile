@@ -1,6 +1,7 @@
 FROM node:latest
 LABEL Author "Charles Stover <docker@charlesstover.com>"
 WORKDIR /var/www
+ENV ACCESS_CONTROL_ALLOW_ORIGIN https://charlesstover.com
 COPY package.json yarn.lock ./
 RUN yarn
 RUN mkdir cache

@@ -8,5 +8,10 @@
   "description": "Counts downloads of NPM packages.",
   "license": "MIT",
   "main": "src/index.js",
-  "repository": "https://github.com/CharlesStover/npm-downloads-api.git"
+  "repository": "https://github.com/CharlesStover/npm-downloads-api.git",
+  "scripts": {
+    "build": "docker build --file Dockerfile --tag charlesstover/npm-downloads-api .",
+    "start": "docker run --detach --env ACCESS_CONTROL_ALLOW_ORIGIN=https://local.host:3000 --name npm-downloads-api --network reverse-proxy charlesstover/npm-downloads-api",
+    "stop": "docker stop npm-downloads-api && docker rm npm-downloads-api"
+  }
 }
