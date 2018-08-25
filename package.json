@@ -1,5 +1,5 @@
 {
-  "name": "npm-counter",
+  "name": "npm-downloads-api",
   "version": "1.0.0",
   "author": "Charles Stover <github@charlesstover.com>",
   "dependencies": {
@@ -8,5 +8,5 @@
   "description": "Counts downloads of NPM packages.",
   "license": "MIT",
   "main": "src/index.js",
-  "repository": "https://github.com/CharlesStover/npm-counter.git"
+  "repository": "https://github.com/CharlesStover/npm-downloads-api.git"
 }
