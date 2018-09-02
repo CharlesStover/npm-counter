@@ -67,8 +67,10 @@ const fetchDownloads = (packages) =>
           const package = packageStats[0].package;
           let downloads = 0;
           for (const packageStat of packageStats) {
-            for (const download of packageStat.downloads) {
-              downloads += download.downloads;
+            if (Array.isArray(packageStat.downloads)) {
+              for (const download of packageStat.downloads) {
+                downloads += download.downloads;
+              }
             }
           }
           stats[package] = downloads;
