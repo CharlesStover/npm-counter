@@ -4,6 +4,7 @@ module.exports = [
   [ 'delimiter' ],
   [ 'fetch-action-creator', 'async-action', 'thunk-action-creator' ],
   [ 'mssql-query-builder' ],
+  [ 'pluralsight-score' ],
   [ 'rainbow-gradient' ],
   [ 'react-innertext', 'jsx-inner-text' ],
   [ 'react-mui-tooltip' ],
