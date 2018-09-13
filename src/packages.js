@@ -12,6 +12,7 @@ module.exports = [
   [ 'react-object-prop' ],
   [ 'react-portfolio' ],
   [ 'react-quotes' ],
+  [ 'react-quotes-carousel' ],
   [ 'react-rainbow-text' ],
   [ null, '@charlesstover/electron-transitions', '@charlesstover/password-generator', '@charlesstover/radix', '@charlesstover/rainbow-text', '@charlesstover/spritesheet2gif' ]
 ];
