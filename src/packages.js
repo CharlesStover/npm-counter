@@ -11,8 +11,7 @@ module.exports = [
   [ 'react-multi-context' ],
   [ 'react-object-prop' ],
   [ 'react-portfolio' ],
-  [ 'react-quotes' ],
-  [ 'react-quotes-carousel' ],
+  [ 'react-quotes-carousel', 'react-quotes' ],
   [ 'react-rainbow-text' ],
   [ null, '@charlesstover/electron-transitions', '@charlesstover/password-generator', '@charlesstover/radix', '@charlesstover/rainbow-text', '@charlesstover/spritesheet2gif' ]
 ];
