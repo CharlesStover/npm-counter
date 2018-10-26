@@ -17,5 +17,6 @@ module.exports = [
   [ 'rn-webview' ],
   [ 'use-force-update' ],
   [ 'use-react-router' ],
+  [ 'with-router' ],
   [ null, '@charlesstover/electron-transitions', '@charlesstover/password-generator', '@charlesstover/radix', '@charlesstover/rainbow-text', '@charlesstover/spritesheet2gif' ]
 ];
