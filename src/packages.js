@@ -3,6 +3,7 @@ module.exports = [
   [ '@gamingmedley/konami.js' ],
   [ 'delimiter' ],
   [ 'fetch-action-creator', 'async-action', 'thunk-action-creator' ],
+  [ 'fetch-suspense' ],
   [ 'mssql-query-builder' ],
   [ 'pluralsight-score' ],
   [ 'rainbow-gradient' ],
