@@ -1,6 +1,7 @@
 module.exports = [
   [ '@charlesstover/hsl2rgb' ],
   [ '@gamingmedley/konami.js' ],
+  [ 'deep-proxy-polyfill' ],
   [ 'delimiter' ],
   [ 'fetch-action-creator', 'async-action', 'thunk-action-creator' ],
   [ 'fetch-suspense' ],
@@ -16,6 +17,7 @@ module.exports = [
   [ 'react-rainbow-text' ],
   [ 'reactn' ],
   [ 'rn-webview' ],
+  [ 'use-dimensions' ],
   [ 'use-force-update' ],
   [ 'use-react-router' ],
   [ 'with-router' ],
