@@ -1,5 +1,6 @@
 module.exports = [
   [ '@charlesstover/hsl2rgb' ],
+  [ '@charlesstover/quicksort' ],
   [ '@gamingmedley/konami.js' ],
   [ 'deep-proxy-polyfill' ],
   [ 'delimiter' ],
