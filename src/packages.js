@@ -18,6 +18,7 @@ module.exports = [
   [ 'react-rainbow-text' ],
   [ 'reactn' ],
   [ 'rn-webview' ],
+  [ 'use-clippy' ],
   [ 'use-dimensions' ],
   [ 'use-force-update' ],
   [ 'use-react-router' ],
