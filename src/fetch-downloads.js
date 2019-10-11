@@ -121,6 +121,11 @@ const fetchDownloads = packages =>
               stats[package][day] = 0;
             }
           }
+
+          // Drop trailing 0's.
+          while (stats[package].length && stats[package][0] === 0) {
+            stats[package].shift();
+          }
         }
         return stats;
       }
