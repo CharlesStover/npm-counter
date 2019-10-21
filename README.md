@@ -1,5 +1,12 @@
 # NPM Downloads API
+
 Fetches download count of NPM packages.
+
+## Tech Stack
+
+* Docker - containerizes the API
+* JavaScript - Promises for fetching and parsing data
+* Node - server and file system
 
 ## Use
 
@@ -26,7 +33,8 @@ docker run \
   charlesstover/npm-downloads-api;
 ```
 
-## Tech Stack
-* Docker - containerizes the API
-* JavaScript - Promises for fetching and parsing data
-* Node - server and file system
+## Sponsor 💗
+
+If you are a fan of this project, you may
+[become a sponsor](https://github.com/sponsors/CharlesStover)
+via GitHub's Sponsors Program.
